@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450714872264",
+    "project_id": "stepcounterapp-7ad35",
+    "storage_bucket": "stepcounterapp-7ad35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450714872264:android:6e86ff951ab372a72a38fd",
+        "android_client_info": {
+          "package_name": "com.example.stepcounterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450714872264-qjere4av3qubiete7e4tuhkeqnjaknli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB2jr4maS6rFx39cWwFh7RhOPzxq_PU1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450714872264-4ijbpid3bqqkja8kj4qco6dbo2a4m8jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

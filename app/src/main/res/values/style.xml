@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="widthW_heightW">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="right_top_image" parent="widthW_heightW">
+        <item name="android:elevation">@dimen/dp_20</item>
+        <item name="android:padding">@dimen/dp_16</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+
+    <style name="today_label_image" parent="widthW_heightW">
+        <item name="android:layout_marginRight">@dimen/dp_10</item>
+        <item name="android:elevation">@dimen/dp_20</item>
+        <item name="android:paddingTop">@dimen/dp_10</item>
+        <item name="android:src">@drawable/today_label</item>
+    </style>
+
+
+    <style name="value_relative" parent="widthW_heightW">
+        <item name="android:layout_marginLeft">@dimen/dp_5</item>
+        <item name="android:layout_marginBottom">@dimen/dp_5</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:layout_marginRight">@dimen/dp_10</item>
+        <item name="android:background">@drawable/corner_bg</item>
+        <item name="android:elevation">@dimen/dp_4</item>
+        <item name="android:paddingBottom">@dimen/dp_10</item>
+    </style>
+
+
+    <style name="title_text_all_caps_size12" parent="widthW_heightW">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+    </style>
+
+
+    <style name="value_text" parent="widthW_heightW">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:layout_marginTop">@dimen/dp_5</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+    </style>
+
+
+    <style name="unit_text" parent="widthW_heightW">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+    </style>
+
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

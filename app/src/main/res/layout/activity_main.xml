@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="fitnessData"
+            type="com.example.stepcounterapp.FitnessDataResponseModel" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#DCD6D6"
+        >
+
+        <LinearLayout
+            android:id="@+id/rltRootDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+
+            <LinearLayout
+                android:id="@+id/rltDistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/txtDistance"
+                    style="@style/title_text_all_caps_size12"
+                    android:text="@string/distance"
+                    android:textSize="32sp"
+                    android:textColor="@color/distance_color" />
+
+                <TextView
+                    android:id="@+id/txtDistanceValue"
+                    style="@style/value_text"
+                    android:text="@{``+fitnessData.distance}"
+                    android:textSize="25sp"
+                    android:textColor="@color/distance_color" />
+
+                <TextView
+                    style="@style/unit_text"
+                    android:text="@string/mi"
+                    android:textSize="25sp"
+                    android:textColor="@color/distance_color" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rltRootSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:id="@+id/rltSteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/txtSteps"
+                    style="@style/title_text_all_caps_size12"
+                    android:text="@string/steps"
+                    android:textSize="32sp"
+                    android:layout_marginTop="48dp"
+                    android:textColor="@color/steps_color" />
+
+                <TextView
+                    android:id="@+id/txtStepsValue"
+                    style="@style/value_text"
+                    android:text="@{``+fitnessData.steps}"
+                    android:textSize="25sp"
+                    android:textColor="@color/steps_color" />
+
+                <TextView
+                    style="@style/unit_text"
+                    android:textSize="25sp"
+                    android:text="@string/steps"
+                    android:textColor="@color/steps_color" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</layout>

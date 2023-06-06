@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StepCounterApp</string>
+    <string name="calories">Calories</string>
+    <string name="kcal">KCal</string>
+    <string name="distance">distance</string>
+    <string name="mi">mi</string>
+    <string name="steps">Steps</string>
+</resources>
